@@ -1,0 +1,62 @@
+\usepackage[fntef]{ctex} % invole CJKfntef
+\usepackage{ctex}
+\usepackage{setspace} % spacing
+\usepackage{xcolor}   % color
+\usepackage{xltxtra}  % print a XeLaTeX
+
+ 
+% Font family
+\setmainfont[Mapping=tex-text]{Times New Roman}
+
+% Font size
+\newcommand{\chuhao}{\zihao{0}}
+\newcommand{\xiaochuhao}{\zihao{-0}}
+\newcommand{\yihao}{\zihao{1}}
+\newcommand{\xiaoyihao}{\zihao{-1}}
+\newcommand{\erhao}{\zihao{2}}
+\newcommand{\xiaoerhao}{\zihao{-2}}
+\newcommand{\sanhao}{\zihao{3}}
+\newcommand{\xiaosanhao}{\zihao{-3}}
+\newcommand{\sihao}{\zihao{4}}
+\newcommand{\xiaosihao}{\zihao{-4}}
+\newcommand{\wuhao}{\zihao{5}}
+\newcommand{\xiaowuhao}{\zihao{-5}}
+\newcommand{\liuhao}{\zihao{6}}
+\newcommand{\xiaoliuhao}{\zihao{-6}}
+\newcommand{\qihao}{\zihao{7}}
+\newcommand{\bahao}{\zihao{8}}
+% Normal font size is XiaosiHao
+\renewcommand{\normalsize}{\xiaosihao\songti\normalfont}
+
+% Serveral Font pre-setting
+\newcommand{\thesistitlefont}{\centering\heiti\sanhao\textbf} %论文题目的字体
+\newcommand{\thesistitleenfont}{\centering\sanhao\bf}     %论文英文题目的字体
+\newcommand{\covernamefont}{\heiti\yihao\bf}    % 封面上“本科论文”字样的字体
+\newcommand{\coveritemsfont}{\songti\sanhao\bf} % 封面上姓名等条目的字体
+\newcommand{\coverdatefont}{\songti\sanhao\bf}  % 封面上的日期的字体
+\newcommand{\statetitlefirst}{\songti\xiaosanhao\bf}   %诚信声明标题第一行的字体
+\newcommand{\statetitlesecond}{\songti\xiaosanhao\bf}  %诚信声明标题第二行的字体
+\newcommand{\abszhname}{\heiti\xiaosanhao\textbf}         % 中文“摘要”字样的字体
+\newcommand{\abszhkey}{\heiti\xiaosihao\textbf}       % 中文摘要“关键字”字样的字体
+\newcommand{\abszhkeys}{\songti\xiaosihao\normalfont} % 中文摘要关键字的字体
+\newcommand{\absenname}{\xiaosanhao\textbf}               % 英文``Abstract''字样的字体
+\newcommand{\absenkey}{\xiaosihao\textbf}                 % 英文``KEY WORDS''字样的字体
+\newcommand{\absenkeys}{\xiaosihao\normalfont}        % 英文关键字的字体
+\newcommand{\headfont}{\songti\xiaowuhao\normalfont}             % 页眉字体
+\newcommand{\toctitlefont}{\heiti\sanhao\textbf}            % “目录”字样的字体
+\newcommand{\tocchapterfont}{\heiti\xiaosihao} % 目录上第X章的字体
+\newcommand{\tocsectionfont}{\songti\xiaosihao\normalfont}         % 目录上X.Y节的字体
+\newcommand{\tocsubsectionfont}{\songti\xiaosihao\normalfont}      % 目录上X.Y.Z小节的字体
+\newcommand{\tocsubsubsectionfont}{\songti\xiaosihao\normalfont}      % 目录上X.Y.Z.A小节的字体
+\newcommand{\textchapterfont}{\centering\heiti\sanhao\bfseries} % 正文上第X章的字体
+\newcommand{\textsectionfont}{\heiti\sihao\bfseries}            % 正文上X.Y节的字体
+\newcommand{\textsubsectionfont}{\heiti\xiaosihao\bfseries}     % 正文上X.Y.Z小节的字体
+\newcommand{\textsubsubsectionfont}{\heiti\xiaosihao\bfseries}     % 正文上X.Y.Z.A小节的字体
+\newcommand{\footnotefont}{\songti\xiaowuhao\normalfont}     % 脚注字体
+%\newcommand{\ftcaptionfont}{\kaishu\wuhao\normalfont}         % 图表标题的字体
+\newcommand{\ftcaptionfont}{\kaishu\wuhao}         % 图表标题的字体
+\newcommand{\reftitlefont}{\heiti\sanhao\textbf}      % “参考文献”字样的字体
+\newcommand{\refbodyfont}{\songti\wuhao\normalfont}          % 参考文献字体
+\newcommand{\thanktitlefont}{\heiti\sanhao\textbf}    % “致谢”字样的字体
+\newcommand{\appendixtitlefont}{\heiti\sanhao\textbf} % “附录”字样的字体
+\newcommand{\translationtitlefont}{\heiti\sanhao\textbf} % “外文译文”字样的字体
